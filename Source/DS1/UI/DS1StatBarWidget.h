@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
+#include "Base/UserWidgetCore/UIWidgetCore.h"
 #include "DS1StatBarWidget.generated.h"
 
 class UProgressBar;
@@ -11,7 +11,7 @@ class UProgressBar;
  * 
  */
 UCLASS()
-class DS1_API UDS1StatBarWidget : public UUserWidget
+class DS1_API UDS1StatBarWidget : public UIWidgetCore
 {
 	GENERATED_BODY()
 

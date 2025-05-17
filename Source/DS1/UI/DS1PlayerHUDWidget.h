@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "DS1Define.h"
-#include "Blueprint/UserWidget.h"
+#include "Base/UserWidgetCore/UIWidgetCore.h"
 #include "DS1PlayerHUDWidget.generated.h"
 
 class UDS1StatBarWidget;
@@ -12,7 +12,7 @@ class UDS1StatBarWidget;
  * 
  */
 UCLASS()
-class DS1_API UDS1PlayerHUDWidget : public UUserWidget
+class DS1_API UDS1PlayerHUDWidget : public UIWidgetCore
 {
 	GENERATED_BODY()
 
