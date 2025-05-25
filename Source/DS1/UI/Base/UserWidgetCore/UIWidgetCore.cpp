@@ -300,6 +300,6 @@ void UIWidgetCore::StopAutoLoopAnimation()
 {
 	if (Anim_Auto_Loop)
 	{
-		StopAnimation(Anim_Auto_Loop, nStopAnimType::ToDefault, false, true);
+		StopAnimation(Anim_Auto_Loop, EStopAnimType::ToDefault, false, true);
 	}
 }
